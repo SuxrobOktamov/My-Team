@@ -1,0 +1,757 @@
+*{
+    font-family: 'Livvic', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+/* HEADER */
+#header {
+    height: 700px;
+    padding: 73px 0 250px 0;
+    background: url(rasm/logo1.svg), url(rasm/logo.svg);
+    background-repeat: no-repeat;
+    background-position: -100px 250px ,right 165px bottom 0px;
+    background-size: 200px 200px, 358px 100px;
+    background-color: #014E56;  
+}
+.row.navbar1 {
+    display: none;
+}
+.row.navbar {
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    margin-bottom: 129px;
+}
+.myteam-logo {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.myteam-logo img {
+    width: 160px;
+    height: 40px;
+}
+.myteam-link {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+.myteam-link a {
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    transition: all .5s ease;
+}
+.myteam-link a:hover {
+    font-size: 20px;
+    color: #F67E7E;
+}
+.actives a:focus {
+    color: #F67E7E;
+}
+.header-contact {
+    margin: 0;
+    text-align: end;
+}
+.header-contact a {
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding: 9px 33px 11px 32px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+    transition: all .2s ease-in-out;
+}
+.header-contact a:hover {
+    background-color: #fff;
+    color: #014E56;
+    border-color: #014E56;
+}
+
+.header-title {
+    justify-content: space-between;
+}
+.header-title h1 {    
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color: #FFFFFF;
+}
+.header-title span {
+    color: #F67E7E;
+}
+.header-title p {
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-top: 83px;
+    position: relative;
+}
+.header-title p::before {
+    content: "";
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #79C8C7;
+}
+/* MAIN */
+/* SECTION1 */
+
+#section1 {
+    height: 684px;
+    padding: 140px 0;
+    background: url(rasm/logo5.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right -100px;
+    background-size: 200px 244px;
+    background-color: #012F34;
+}
+.banner h3 {
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-top: 54px;
+    position: relative;
+}
+.banner h3::before {
+    content: "";
+    width: 50px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F67E7E;
+}
+.banner-div {
+    margin: 0;
+    padding-top: 54px;
+}
+.banner-div div {
+    margin: 0;
+    padding-left: 95px;
+    position: relative;
+}
+.banner-div div:nth-child(1):before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(rasm/logo2.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-div div:nth-child(2):before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(rasm/logo3.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-div div:nth-child(3):before {
+    content: "";
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(rasm/logo4.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.banner-div div:not(:last-child) {
+    margin-bottom: 32px;
+}
+.banner {
+    justify-content: space-between;
+}
+.banner-div-div h4 {
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F67E7E;
+    margin-bottom: 16px;
+}
+.banner-div-div p {
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+/* SECTION2 */
+
+#section2 {
+    height: 745px;
+    padding: 140px 0;
+    background: url(rasm/logo8.svg) , url(rasm/logo9.svg);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-size: 147px 100px, 200px 100px;
+    background-color: #004047;    
+}
+.article {
+    justify-content: center;
+}
+.article h2 {
+    margin: 0;
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 56px;
+}
+.article b {
+    color:#79C8C7 ;
+}
+.article-div {
+    margin: 0;
+}
+.article-div div {
+    margin: 0;
+    padding-top: 36px;
+    padding-bottom: 105px;
+    background: url(rasm/logo6.svg);
+    background-size: 67px 56px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    position: relative;
+}
+.article-div div::after {
+    content: "";
+    width: 62px;
+    height: 62px;
+    position: absolute;
+    border: 2px solid #C4FFFE;
+    background: url(rasm/logo7.jpg);
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    background-position: center center;
+    border-radius: 50%;
+    bottom: 0;
+    left: 150px;
+}
+.article-div-div p {
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.article-div-div h4{
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #79C8C7;
+}
+.article-div-div .name {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 0;
+}
+
+/* FOOTER */
+#footer {
+    height: 396px;
+}
+
+.footer-section {
+    padding: 76px 0;
+    height: 200px;
+    background: url(rasm/logo10.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 200px 144px;
+    background-color: #F67E7E;
+}
+
+.animation {
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+.animation div {
+    text-align: end;
+}
+.animation div a {
+    padding: 9px 33px 11px 32px;
+    border: 2px solid #012F34;
+    border-radius: 24px;
+    transition: all .2s ease-in-out;
+}
+.activ:focus {
+    outline: 3px solid #4bc;
+}
+.animation h3 {
+    font-family: 'Livvic', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #012F34;
+}
+.animation a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #012F34;
+}
+
+.footer-div {
+    height: 196px;
+    padding: 48px 0;
+    background-color:#002529;
+}
+.footer-myteam {
+    justify-content: space-between;
+}
+.footer-myteam-div1 {
+    margin: 0;
+}
+.footer-myteam-div1 img {
+    width: 160px;
+    height: 40px;
+    margin-bottom: 25px;
+}
+.footer-myteam-div1 a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.footer-myteam-div1 div a:nth-child(1) {
+    margin-right: 40px;
+}
+.footer-ul {
+    margin: 0;
+}
+.footer-ul li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+.footer-myteam-div2 {
+    margin: 0;
+}
+.footer-myteam-div2 div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 51px;
+}
+.footer-myteam-div2 a {
+    margin-left: 16px;
+}
+.footer-myteam-div2 p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: right;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width:992px) {
+    #header {
+        background-position: -100px 250px ,right 40px bottom 0px;
+        background-size: 150px 150px, 280px 80px;
+        background-color: #014E56;
+    }
+    .myteam-logo img {
+        height: 32px;
+        width: 128px;
+    }
+    #section1 {
+        background-position: bottom right -90px;
+        background-size: 180px 220px;
+        background-color: #012F34;
+    }
+    .header-title h1 {
+        font-size: 64px;
+        line-height: 56px;
+    }
+    .header-title p {
+        font-size: 15px;
+        line-height: 28px;
+    }
+    .banner h3 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    #section2 {
+        background-size: 120px 80px, 180px 90px;
+        background-color: #004047;
+    }
+    .article h2 {
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .article-div-div p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .article-div div::after {
+        left: 100px;
+    }
+    .footer-section {
+        background-size: 180px 130px;
+        background-color: #F67E7E;
+    }
+    .animation {
+        padding: 0 50px;
+    }
+    .animation h3 {
+        font-size: 32px;
+        line-height: 32px;
+        margin: 0;
+    }
+    .animation div {
+        margin: 0;
+    }
+    .footer-myteam-div1 img {
+        width: 96px;
+        height: 24px;
+        margin-bottom: 45px;
+    }
+    .footer-myteam-div1 a {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .footer-myteam-div1 div a:nth-child(1) {
+        margin-right: 24px;
+    }
+}
+@media only screen and (max-width:768px) {
+    #header {
+        padding: 64px 0 256px 0;
+        background: url(rasm/logo.svg);
+        background-position: right 204px bottom 0px;
+        background-size: 358px 100px;
+        background-repeat: no-repeat;
+        background-color: #014E56;    
+    }
+    .header-title {
+        justify-content: center;
+    }
+    .row.navbar {
+        margin-bottom: 112px;
+    }
+    #section1 {
+        height: 710px;
+        padding: 100px 0;
+        background: url(rasm/logo5.svg);
+        background-repeat: no-repeat;
+        background-position: top right -100px;
+        background-size: 200px 244px;
+        background-color: #012F34;
+    }
+    .header-title p::before {
+        display: none;
+    }
+    .header-title p {
+        text-align: center;
+    }
+    .header-title h1 {
+        text-align: center;
+    }
+    .banner-div {
+        padding-top: 64px;
+    }
+    #section2 {
+        height: 1199px;
+        padding: 100px 0;
+        background-size: 147px 100px, 200px 100px;
+        background-color: #004047;
+    }
+    .article-div {
+        justify-content: center;
+    }
+    .article h2 {
+        margin-bottom: 48px;
+    }
+    .article-div div {
+        padding-bottom: 80px;
+        margin-bottom: 48px;
+    }
+    .article-div div::after {
+        left: 255px;
+    }
+    #footer {
+        height: 471px;
+    }
+
+    .footer-div {
+        height: 271px;
+        padding: 56px 0;
+    }
+    .footer-myteam-div1 img {
+        margin-bottom: 53px;
+    }
+    .footer-ul {
+        text-align: end;
+        margin-bottom: 34px;
+    }
+    .footer-myteam-div2 {
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-myteam-div2 a {
+        margin-right: 16px;
+        margin-left: 0;
+    }
+} 
+
+@media only screen and (max-width:576px) {
+    #header {
+        height: 567px;
+        padding: 48px 0 197px 0;
+        background-position: right 50% bottom 0px;
+    }
+    .row.navbar {
+        display: none;
+    }
+    .row.navbar1 {
+        display: flex;
+        height: 32px;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 80px;
+    }
+    .navbar1-div img {
+        width:128px ;
+        height: 32px;
+    }
+    label {
+        text-align: end;
+    }
+    label i {
+        width: 24px;
+        height: 24px;
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .header-title h1 {
+        font-size: 40px;
+        line-height: 40px;
+        margin-bottom: 18px;
+    }
+    .header-title p {
+        padding-top: 0;
+    }
+    #section1 {
+        height: 1073px;
+        padding: 64px 0;
+    }
+    .banner-div {
+        padding-top: 0;
+        margin-top: 56px;
+    }
+    .banner-div div {
+        padding-top: 88px;
+        padding-left: 0;
+        text-align: center;
+    }
+    .banner-div div:nth-child(1):before {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .banner-div div:nth-child(2):before {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .banner-div div:nth-child(3):before {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .banner-div-div h4 {
+        margin-bottom: 8px;
+    }
+    .banner-div div:not(:last-child) {
+        margin-bottom: 48px;
+    }
+    #section2 {
+        height: 1410px;
+        padding: 140px 0 164px 0;
+    }
+    .article-div div::after {
+        left: 50%;
+        transform: translate(-50%);
+    }
+    #footer {
+        height: 734px;
+    }
+    .footer-section {
+        height: 302px;
+        padding: 83px 0;
+    }
+    .animation {
+        text-align: center;
+        padding: 0;
+    }
+    .animation div {
+        text-align: center;
+    }
+    .animation h3 {
+        margin-bottom: 24px;
+    }
+    .footer-div {
+        height: 432px;
+        padding: 66px 0 64px 0;
+    }
+    .footer-myteam-div1 {
+        text-align: center;
+    }
+    .footer-ul {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .footer-myteam-div1 img {
+        margin-bottom: 24px;
+    }
+    .footer-myteam-div1 div {
+        margin-bottom: 24px;
+    }
+    .footer-myteam-div2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-myteam-div2 div {
+        margin-bottom: 24px;
+    }
+    .navbar-menu {
+        display: none;
+        position: relative;
+        height: 667px;
+        right: -76px;
+        top: -83px;
+        width: 255px;
+        z-index: 10;
+        background: url(rasm/logo14.svg);
+        background-repeat: no-repeat;
+        background-size: 200px 200px;
+        background-color: #004047;
+        background-position: bottom right -50px;
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    .myteam-menu a:nth-child(1) {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 112px;
+        right: 158px;
+    }
+    .myteam-menu .myteam-logo a:nth-child(2) {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        position: absolute;
+        top: 164px;
+        right: 158px;
+    }
+    .header-menu {
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;
+        position: absolute;
+        height: 28px;
+        left: 21.38%;
+        right: 20.75%;
+        top: calc(50% - 28px/2 - 1px);
+        transition: all .2s ease-in-out;
+    }
+    .header-menu:hover {
+        background-color: #fff;
+    }
+    .header-menu a{
+        position: absolute;
+        height: 28px;
+        left: 21.38%;
+        right: 20.75%;
+        top: calc(50% - 28px/2 - 1px);
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        transition: all .2s ease-in-out;
+    }
+    .header-menu a:hover {
+        color: #002529;
+    }
+    .label {
+        position: absolute;
+        right: 20px;
+        top: 53px;
+    }
+    .input {
+        position: relative;
+        display: none;
+        
+    }
+    .input:checked + div {
+        display: block;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
